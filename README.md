@@ -6,19 +6,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 |Input   | Output |
 | ------------- | ------------- |
-| Valid Github Profile name   | Users profile detail,photo  |
-| Invalid Github Profile name | Best fit of the user name's repo but error found in the profile name |
+| Create Hero  | User Enters,age,powers and weakness  |
+| Submit | Success message the hero has been created|
+|See heroes| List of existing and added heroes|
 
 ## Desktop view
 
 ![image](src/main/java/resources/public/images/1.png)
 ![image](src/main/java/resources/public/images/2.png)
+![image](src/main/java/resources/public/images/3.png)
+![image](src/main/java/resources/public/images/3.png)
 
 ## Technologies Used
 
 1.Java
 2.HTML
 3.CSS
+4.Handlebars
 
 ## Contact Details
 
