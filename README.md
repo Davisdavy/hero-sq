@@ -1,4 +1,8 @@
-# RepoSearch Me by Davis
+# HeroSquad by Davis
+
+# Description
+
+app that allows you to recruit a well-balanced team of superheroes (or any other character-type of your choosing).
 
 This project was generated with Java version 12.
 
