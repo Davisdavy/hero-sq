@@ -6,7 +6,7 @@ nav{
 
 }
 body{
-background: url("images/comic2.jpg");
+background: url("/images/comic2.jpg");
 background-size: cover;
 color: white;
 }
