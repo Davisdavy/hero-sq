@@ -1,0 +1,10 @@
+{{#partial "content"}}
+        <form class="form" action="/squad/new" method="post">
+            <h1>Create Your Squad</h1>
+            <input type="text" placeholder="Squad name" name="squadName" required>
+            <input type="number" placeholder="Enter  size of squad" name="size" required>
+            <input type="text" placeholder="Mission cause" name="cause" required>
+            <input type="submit">
+        </form>
+{{/partial}}
+{{> layout.hbs}}

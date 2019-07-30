@@ -1,0 +1,19 @@
+
+{{#partial "content"}}
+
+        <h2> <a href="/h-form" >Add hero</a> <br><br> Added heroes</h2>
+
+            {{#each hero}}
+                <div class="hero-item">
+                    <p>Name: {{ name }} </p>
+                    <p>Age: {{ age }}</p>
+                    <p>Special power: {{ power }}</p>
+                    <p>Weakness: {{ weakness }}</p>
+                    <p>Id: {{ id }}</p>
+                    <a href="new/{{id}}"></a>
+                    <a href="/squad" >Add {{ name }} To Squad</a>
+                </div>
+            {{/each}}
+
+{{/partial}}
+{{> layout.hbs}}
