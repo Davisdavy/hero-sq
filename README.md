@@ -23,8 +23,8 @@ This project was generated with Java version 12.
 ## Desktop view
 
 ![image](src/main/resources/public/images/1.png)
-![image](src/main/resources/public/images/2.png)
 ![image](src/main/resources/public/images/3.png)
+![image](src/main/resources/public/images/2.png)
 ![image](src/main/resources/public/images/4.png)
 
 ## Technologies Used
