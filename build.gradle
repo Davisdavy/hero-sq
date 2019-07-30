@@ -9,7 +9,7 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 mainClassName = "App"
 archivesBaseName="heroSquaddApp"
-applictaionName="herosquadapplication"
+applictaionName="herosquadapp"
 
 repositories {
     mavenCentral()

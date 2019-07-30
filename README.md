@@ -10,6 +10,12 @@ This project was generated with Java version 12.
 | Submit | Success message the hero has been created|
 |See heroes| List of existing and added heroes|
 
+|Input   | Output |
+| ------------- | ------------- |
+| Add Squad  | User Enters,age,powers and weakness  |
+| Submit | Success message the hero has been created|
+|See Squad| List of existing and added heroes|
+
 ## Desktop view
 
 ![image](src/main/resources/public/images/1.png)

@@ -63,12 +63,12 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="models.SquadTest" name="squad_instantiatesCorrectlyAndReturnTrue" time="0"/>
-  <testcase classname="models.SquadTest" name="addPlayers_addPlayersToSquadInTheHero" time="0"/>
   <testcase classname="models.SquadTest" name="squad_getNameThatIsString" time="0"/>
   <testcase classname="models.SquadTest" name="squad_getSizeThatIsAnInteger" time="0"/>
   <testcase classname="models.SquadTest" name="squad_getPowerThatIsAString" time="0"/>
   <testcase classname="models.SquadTest" name="squad_getInstancesThatIsTrue" time="0"/>
+  <testcase classname="models.SquadTest" name="addPlayers_addPlayersToSquadInTheHero" time="0"/>
+  <testcase classname="models.SquadTest" name="setNewPlayerWhichIsAHero" time="0"/>
   <testcase classname="models.SquadTest" name="squad_getSquadPlayersInAnArray" time="0"/>
   <testcase classname="models.SquadTest" name="squad_allTestSquadPlayersInAnArray" time="0"/>
-  <testcase classname="models.SquadTest" name="setNewPlayerWhichIsAHero" time="0"/>
 </testsuite>
