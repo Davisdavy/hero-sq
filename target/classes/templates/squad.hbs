@@ -1,0 +1,50 @@
+{{#partial "content"}}
+
+    <h2>Added Heroes</h2>
+            {{#each heroes}}
+
+                  <div >
+                    <p>Name: {{name}}</p>
+                    <p>Super power: {{ power }}</p>
+                  </div>
+            {{/each}}
+            </div>
+            <h2>
+                <a href="/s-form">Create Your Squad</a>
+                <br><br>
+        {{#if squads}}
+                Check Existing Squads
+            </h2>
+        {{#each squads}}
+            <div class="squad-cont">
+                <img src="" alt="">
+                <div>
+                  <h1>{{ squadName }} </h1>
+                    <p>{{squadId}}</p>
+                    <p>Purpose: {{cause}}</p>
+                    <p>Size: {{ size }}</p>
+                    <br><br>
+                  <h3>Players</h3>
+                    <a href="/new/member/{{squadId}}">Confirm</a>
+                    <button>Add Player</button>
+                    {{#each squadPlayer}}
+                        <div >
+                            <h5>Name: {{this.name}}</h5>
+                            <h5>Power: {{power}}</h5>
+                            <Button>Remove</Button>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+        {{else}}
+            <h2>Please create a squad to continue</h2>
+        {{/if}}
+        </div>
+
+
+{{/partial}}
+{{#partial "footer"}}
+
+{{/partial}}
+{{> layout.hbs}}
