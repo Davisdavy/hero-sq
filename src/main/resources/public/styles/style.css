@@ -1,0 +1,41 @@
+nav{
+  position: absolute;
+  top: 50px;
+  right: 15%;
+  font-family: sans-serif;
+
+}
+body{
+background: url("images/comic2.jpg");
+background-size: cover;
+color: white;
+}
+nav>ul li{
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  coloR: white;
+  text-decoration: none;
+}
+p{
+  color: white;
+}
+a{
+  text-decoration: none;
+ }
+.spnBtn{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+}
+.center{
+  color: #fff;
+  text-align: center;
+}
+
+h1,h2,h3,h4{
+color: #fff;
+}
+
