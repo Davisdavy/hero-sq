@@ -12,7 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Desktop view
 
-![image](src/main/resources/public/images/1.png)
+![image](src/main/resources/images/1.png)
 ![image](src/main/resources/public/images/2.png)
 ![image](src/main/resources/public/images/3.png)
 ![image](src/main/resources/public/images/4.png)
